@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUPPORT CENTER"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/midwhite"
+            />
+
+        <TextView
+            android:id="@+id/line1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read the followings carefully. You Have to follow the rules and regulations in order to being a safe user. If you have any query, please contact us with :- micropenny.info@gmail.com"
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:id="@+id/line2"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Never try to find the short way to earn more money.\n2. Don't make much Invalid activity, it can cause account termination.\n3. If you close the ad as early as necessary, you will not get the penny.\n4. Payment Ratio depends on {(total status point *100 )/total days you use the app in a month}\n5.Withdraw depends on your Payment Ratio. If you request for 100 Penny  and your payment ratio is 90%, you will get 90 penny in withdraw.\n6. Payment ratio less than 30% but greater than 0% will always get payment as fixed 30%.\n7. Payment Ratio below 0% will not get any payment."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:id="@+id/line3"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you being found to be violating those rules, your account will be terminated and the pending withdrawal request will also be removed."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cautions!"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/midwhite"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_done_green_24dp"
+            />
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This sign represents that your activities are in good condition and your are following all the activities and policies.\n\nPer100 Impression we demand 1 ad click. To balance the income you generate, this process is necessary. When you click an ad, make sure you spend on the ad page at least 2 minute. Keep in mind, it's a sensitive activity and penny rate depends on it. This sign will give you +1 status point."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_warning_yellow_24dp"
+            />
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This sign represents that your activities are in a warning position and your are not following all the activities and policies. Some of the activities are violating our policies.\n\n When we demand for 1 click or you make 1 over click, you see this sign. This sign will give you 0 status point."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_warning_red_24dp"
+            />
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This sign represents that your activities are in danger and your are not following any policies. To being safe, try to avoid this sign.\n\n When we demand for 2 or more clicks or you make 2 or more over clicks, you will see this sign. And it's not a good sign that you should see. This sign will give you -2 status point."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Referral"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Your referral code is the email that you used in your account.\n2. You will get 10% commission penny from your referral users.\n3. Suppose your referral user earn 100 penny, you will get 10 penny instantly. So more referral means more penny.\n4. Commission penny will be reduced from you referral user's account.\n5.This reduction (10%) will apply in your withdraw ."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earn Safely"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:id="@+id/line4"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Micro Penny "
+            android:textSize="15sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:id="@+id/line5"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. After every one minute you will get some micro penny.\n2. The amount of penny not more than 0.05.\n3. Amount depends on server value.\n4. This value change everyday.\n5. (Safety) You have to spend at least 5 second in every micro penny ad in order to avoid invalid activity."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:id="@+id/line6"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Average Penny "
+            android:textSize="15sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:id="@+id/line7"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. After every two minutes you will get a average penny if you missed the big one.\n2. The amount of penny not more than 0.5.\n3. Amount depends on server value.\n4. This value change everyday.\n5. (Safety) You have to spend at least 10 second in every average penny ad in order to avoid invalid activity."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:id="@+id/line8"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Big Penny "
+            android:textSize="15sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. After every ten minutes you will get a big penny.\n2. The amount of penny not more than 5.\n3. Amount depends on server value.\n4. This value change everyday.\n5. (Safety) You have to spend at least 15 second in every big penny Ad in order to avoid invalid activity."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For invalid activity, penny will be reduced from your account while withdraw request will process."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Earn More (VPN)"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you are missing a lot of penny then we recommend to use a standard VPN."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Standard VPN List "
+            android:textSize="15sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Nord VPN\n2. Proton VPN\n3. Express VPN\n4. Vypr VPN\n5. Windscribe\n6. Betternet\n7. Speedify\n8. PrivateVPN"
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="VPN Country List "
+            android:textSize="15sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. United States\n2. United Kingdom\n3. Canada\n4. Australia\n5. Brazil\n6. New Zealand\n7. Chile\n8. Switzerland"
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Withdraw"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Request and Approval"
+            android:textSize="15sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Minimum withdraw is 100 penny.\n2. You can request for withdraw once in a month.\n3. We usually process every withdraw request from date 25 to 30 in every month.\n4. Penny will reduce once the process is complete.\n5. Withdraw depends on your Payment Ratio."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Payment Method"
+            android:textSize="15sp"
+            android:textColor="@color/midwhite"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Bkash (Fee Included).\n2. Rocket (Fee Included).\n3. Flexiload (Free)."
+            android:textSize="13sp"
+            android:textColor="@color/midwhite"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

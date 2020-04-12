@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "285970531443",
+    "firebase_url": "https://micro-penny.firebaseio.com",
+    "project_id": "micro-penny",
+    "storage_bucket": "micro-penny.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285970531443:android:740685eb28eddab982d606",
+        "android_client_info": {
+          "package_name": "com.menan.micropenny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285970531443-fbhjnq168e2ghg0vsgcjf6bke7t8m62b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.menan.micropenny",
+            "certificate_hash": "e3db35eabd0708aa878f148446395f07a3a65422"
+          }
+        },
+        {
+          "client_id": "285970531443-16gtbtbo8qfteooetas703m3uqa09nj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOCCcO5IlFRqayjKRZb44UGuj-tohdMJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285970531443-16gtbtbo8qfteooetas703m3uqa09nj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

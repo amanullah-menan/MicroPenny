@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.menan.micropenny"
+        buildToolsVersion = '29.0.2'
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "2.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion = '29.0.2'
+
+}
+repositories {
+    jcenter()
+
+    maven {
+        url "https://adcolony.bintray.com/AdColony"
+    }
+}
+apply plugin: 'com.android.application'
+dependencies {
+    implementation 'com.google.android.gms:play-services-ads:18.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'io.paperdb:paperdb:2.6'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.ads:mediation-test-suite:1.2.1'
+    implementation 'com.google.ads.mediation:adcolony:4.1.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'me.biubiubiu.justifytext:library:1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'commons-io:commons-io:2.4'
+    implementation("com.squareup.okhttp3:okhttp:4.2.1")
+    implementation("com.android.volley:volley:1.1.1")
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+}
+apply plugin: 'com.google.gms.google-services'

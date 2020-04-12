@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_weight=".55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight=".4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/penny"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight=".55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight=".522"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register"
+            android:padding="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/midwhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight=".522"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register"
+            android:padding="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Full name"
+            android:inputType="text"
+            android:textColorHint="@color/midwhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight=".522"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/registerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register"
+            android:padding="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Phone number"
+            android:inputType="number"
+            android:textColorHint="@color/midwhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight=".522"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register"
+            android:padding="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/midwhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight=".522"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/referred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register"
+            android:padding="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Referral email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/midwhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/gologin"
+            android:text="Register"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+

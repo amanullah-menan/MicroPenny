@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BF007A</color>
+    <color name="colorPrimaryDark">#BF007A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pennyColor">#a47e6b</color>
+    <color name="fbColor">#555A5C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="midwhite">#E7E7E7</color>
+    <color name="black">#000000</color>
+    <color name="red">#D50000</color>
+    <color name="green">#4CAF50</color>
+    <color name="yellow">#FFEB3B</color>
+</resources>
